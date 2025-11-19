@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_yarn:
-    if: ${{ github.repository == 'atlasmap/atlasmap' }}
+    if: ${{ github.repository == 'granitrocky/atlasmap' }}
     continue-on-error: true
     runs-on: self-hosted
     strategy:

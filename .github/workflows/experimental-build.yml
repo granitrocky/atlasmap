@@ -11,7 +11,7 @@ on:
 
 jobs:
   build_maven:
-    if: ${{ github.repository == 'atlasmap/atlasmap' }}
+    if: ${{ github.repository == 'granitrocky/atlasmap' }}
     runs-on: self-hosted
     continue-on-error: true
     strategy:

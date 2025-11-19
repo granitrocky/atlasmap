@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-main:
-    if: ${{ github.repository == 'atlasmap/atlasmap' }}
+    if: ${{ github.repository == 'granitrocky/atlasmap' }}
     runs-on: self-hosted
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
