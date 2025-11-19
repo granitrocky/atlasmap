@@ -12,7 +12,7 @@ on:
 jobs:
   build_maven:
     if: ${{ github.repository == 'atlasmap/atlasmap' }}
-    runs-on: home-server
+    runs-on: self-hosted
     continue-on-error: true
     strategy:
       matrix:

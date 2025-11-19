@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: home-server
+    runs-on: self-hosted
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
